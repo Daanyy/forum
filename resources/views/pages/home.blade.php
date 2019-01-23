@@ -6,7 +6,7 @@
 
         Home Page
 
-    @endcomponent
+    @endcomponent()
 
     @include('partials.nav')
 

@@ -4,9 +4,11 @@
 
     @component('partials.hero')
 
-        About Page
+        {{ $page->title }}
 
-    @endcomponent()
+    @endcomponent
+
+    <p> {{ $page->content }} </p>
 
     @include('partials.nav')
 
